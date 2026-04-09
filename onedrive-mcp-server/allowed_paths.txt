@@ -1,0 +1,6 @@
+# Erlaubte OneDrive-Pfade für den MCP-Server
+# Jede Zeile ist ein erlaubter Pfad (z.B. /Dokumente oder /Bilder/Fotos)
+# Alle untergeordneten Pfade dieser Einträge sind ebenfalls erlaubt.
+/Dokumente
+/Bilder
+/Downloads

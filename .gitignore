@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+
+# Environment files
+.env
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Temporary files
+*.log
+*.tmp
