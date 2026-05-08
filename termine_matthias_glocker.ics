@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Terminzettel Matthias Glocker//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:20260511T150000-KG-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260511T150000
+DTEND;TZID=Europe/Berlin:20260511T151500
+SUMMARY:KG – K. Herrmann
+DESCRIPTION:Krankengymnastik\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260511T151500-MT-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260511T151500
+DTEND;TZID=Europe/Berlin:20260511T153000
+SUMMARY:MT – K. Herrmann
+DESCRIPTION:Manuelle Therapie\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260511T153000-KGGEis-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260511T153000
+DTEND;TZID=Europe/Berlin:20260511T154500
+SUMMARY:KGG + Eis – K. Herrmann
+DESCRIPTION:Krankengymnastik am Gerät + Eis\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260513T150000-KG-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260513T150000
+DTEND;TZID=Europe/Berlin:20260513T151500
+SUMMARY:KG – K. Herrmann
+DESCRIPTION:Krankengymnastik\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260513T151500-MT-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260513T151500
+DTEND;TZID=Europe/Berlin:20260513T153000
+SUMMARY:MT – K. Herrmann
+DESCRIPTION:Manuelle Therapie\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260513T153000-KGGEis-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260513T153000
+DTEND;TZID=Europe/Berlin:20260513T154500
+SUMMARY:KGG + Eis – K. Herrmann
+DESCRIPTION:Krankengymnastik am Gerät + Eis\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260515T130000-KG-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260515T130000
+DTEND;TZID=Europe/Berlin:20260515T131500
+SUMMARY:KG – J. Reiner
+DESCRIPTION:Krankengymnastik\nMitarbeiter: J. Reiner
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260515T131500-MT-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260515T131500
+DTEND;TZID=Europe/Berlin:20260515T133000
+SUMMARY:MT – J. Reiner
+DESCRIPTION:Manuelle Therapie\nMitarbeiter: J. Reiner
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260515T133000-KGGEis-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260515T133000
+DTEND;TZID=Europe/Berlin:20260515T134500
+SUMMARY:KGG + Eis – J. Reiner
+DESCRIPTION:Krankengymnastik am Gerät + Eis\nMitarbeiter: J. Reiner
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260518T130000-KG-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260518T130000
+DTEND;TZID=Europe/Berlin:20260518T131500
+SUMMARY:KG – K. Herrmann
+DESCRIPTION:Krankengymnastik\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260518T131500-MT-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260518T131500
+DTEND;TZID=Europe/Berlin:20260518T133000
+SUMMARY:MT – K. Herrmann
+DESCRIPTION:Manuelle Therapie\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260518T133000-KGGEis-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260518T133000
+DTEND;TZID=Europe/Berlin:20260518T134500
+SUMMARY:KGG + Eis – K. Herrmann
+DESCRIPTION:Krankengymnastik am Gerät + Eis\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260520T130000-KG-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260520T130000
+DTEND;TZID=Europe/Berlin:20260520T131500
+SUMMARY:KG – K. Herrmann
+DESCRIPTION:Krankengymnastik\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260520T131500-MT-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260520T131500
+DTEND;TZID=Europe/Berlin:20260520T133000
+SUMMARY:MT – K. Herrmann
+DESCRIPTION:Manuelle Therapie\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260520T133000-KGGEis-matthias-glocker@kalender
+DTSTART;TZID=Europe/Berlin:20260520T133000
+DTEND;TZID=Europe/Berlin:20260520T134500
+SUMMARY:KGG + Eis – K. Herrmann
+DESCRIPTION:Krankengymnastik am Gerät + Eis\nMitarbeiter: K. Herrmann
+END:VEVENT
+
+END:VCALENDAR
