@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termine herunterladen</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f2f2f7;
+      color: #1c1c1e;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 40px 48px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 { font-size: 1.4rem; margin-bottom: 8px; }
+    p  { color: #6e6e73; font-size: 0.95rem; margin-bottom: 28px; }
+    a.btn {
+      display: inline-block;
+      background: #007aff;
+      color: white;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    a.btn:hover { background: #0062cc; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Therapietermine</h1>
+    <p>Matthias Glocker &nbsp;·&nbsp; Mai 2026<br>5 Termine · Apple Kalender</p>
+    <a class="btn" id="dl" download="termine_matthias_glocker.ics">⬇ Kalender herunterladen</a>
+  </div>
+  <script>
+    const ics = `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Terminzettel Matthias Glocker//DE\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\n\r\nBEGIN:VEVENT\r\nUID:20260511-therapie-matthias-glocker@kalender\r\nDTSTART;TZID=Europe/Berlin:20260511T150000\r\nDTEND;TZID=Europe/Berlin:20260511T154500\r\nSUMMARY:Therapie – K. Herrmann\r\nDESCRIPTION:KG 15:00\\nMT 15:15\\nKGG + Eis 15:30\\nMitarbeiter: K. Herrmann\r\nEND:VEVENT\r\n\r\nBEGIN:VEVENT\r\nUID:20260513-therapie-matthias-glocker@kalender\r\nDTSTART;TZID=Europe/Berlin:20260513T150000\r\nDTEND;TZID=Europe/Berlin:20260513T154500\r\nSUMMARY:Therapie – K. Herrmann\r\nDESCRIPTION:KG 15:00\\nMT 15:15\\nKGG + Eis 15:30\\nMitarbeiter: K. Herrmann\r\nEND:VEVENT\r\n\r\nBEGIN:VEVENT\r\nUID:20260515-therapie-matthias-glocker@kalender\r\nDTSTART;TZID=Europe/Berlin:20260515T130000\r\nDTEND;TZID=Europe/Berlin:20260515T134500\r\nSUMMARY:Therapie – J. Reiner\r\nDESCRIPTION:KG 13:00\\nMT 13:15\\nKGG + Eis 13:30\\nMitarbeiter: J. Reiner\r\nEND:VEVENT\r\n\r\nBEGIN:VEVENT\r\nUID:20260518-therapie-matthias-glocker@kalender\r\nDTSTART;TZID=Europe/Berlin:20260518T130000\r\nDTEND;TZID=Europe/Berlin:20260518T134500\r\nSUMMARY:Therapie – K. Herrmann\r\nDESCRIPTION:KG 13:00\\nMT 13:15\\nKGG + Eis 13:30\\nMitarbeiter: K. Herrmann\r\nEND:VEVENT\r\n\r\nBEGIN:VEVENT\r\nUID:20260520-therapie-matthias-glocker@kalender\r\nDTSTART;TZID=Europe/Berlin:20260520T130000\r\nDTEND;TZID=Europe/Berlin:20260520T134500\r\nSUMMARY:Therapie – K. Herrmann\r\nDESCRIPTION:KG 13:00\\nMT 13:15\\nKGG + Eis 13:30\\nMitarbeiter: K. Herrmann\r\nEND:VEVENT\r\n\r\nEND:VCALENDAR`;
+
+    const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+    document.getElementById('dl').href = URL.createObjectURL(blob);
+  </script>
+</body>
+</html>
